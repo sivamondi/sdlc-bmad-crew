@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      # Persist project results and settings across restarts
+      - bmad-data:/root/.bmad
+    restart: unless-stopped
+
+volumes:
+  bmad-data:
