@@ -162,4 +162,4 @@ This project is powered by the **[BMad Method](https://github.com/bmad-method/bm
 - 🐦 [X / Twitter](https://twitter.com/bmadcode)
 - ⭐ [Star BMad on GitHub](https://github.com/bmad-method/bmad-method)
 
-Licensed under [MIT](LICENSE).
+Licensed under [MIT](.claude/skills/LICENSE).
